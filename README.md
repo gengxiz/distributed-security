@@ -5,7 +5,12 @@
 ### 流程图
 
 ###### 1，设计方案
-![alt](images/design.png) <br/>
+![alt](document/images/design.png) <br/>
+
+
+###### 2，快速开始
+将 document/sql 里的脚本导入数据库，然后运行项目即可<br/>
+
 
 
 
