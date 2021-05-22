@@ -29,3 +29,9 @@
 
 ###### 6，通过网关获取token资源
 只需要将上面的端口改成8081即可
+
+###### 7，刷新token
+* post 请求
+* url： 127.0.0.1:8083/oauth/token
+
+![alt](document/images/reflush-token.png) <br/>
