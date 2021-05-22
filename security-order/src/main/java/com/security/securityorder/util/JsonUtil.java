@@ -11,17 +11,15 @@ public class JsonUtil {
         try {
             return objectMapper.readValue(string,clazz);
         } catch (IOException e) {
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
-        return null;
     }
 
     public static String toJsonString(Object object){
         try {
             return objectMapper.writeValueAsString(object);
         } catch (IOException e) {
-            e.printStackTrace();
+            throw new RuntimeException(e);
         }
-        return null;
     }
 }

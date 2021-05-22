@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class OrderController {
 
     @RequestMapping("/")
-    @PreAuthorize("hasAuthority('vip3')")
+    @PreAuthorize("hasAuthority('vip1')")
     public String index(){
         UserDTO userDTO = (UserDTO) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         System.out.println(userDTO);
