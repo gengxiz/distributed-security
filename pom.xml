@@ -20,6 +20,14 @@
         <spring-cloud.version>Finchley.RELEASE</spring-cloud.version>
     </properties>
 
+
+    <modules>
+        <module>security-eureka</module>
+        <module>security-oauth</module>
+        <module>security-order</module>
+        <module>security-zuul</module>
+    </modules>
+
     <dependencyManagement>
         <dependencies>
 
